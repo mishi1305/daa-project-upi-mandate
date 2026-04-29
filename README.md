@@ -1,3 +1,9 @@
+# Project Description
+
+**FlexiP₹ice** is a full-stack travel booking platform that implements dynamic pricing, automated booking, and role-based access control. The backend is built in C++ using a custom HTTP server with Winsock, handling user authentication, flight management, UPI mandate-based payments, and booking workflows with file-based persistence.
+
+The system features real-time price fluctuation using configurable multipliers, a greedy-based auto-booking mechanism to select the cheapest available flight within user constraints, and secure admin controls for managing inventory and pricing. The frontend is developed using HTML, CSS, and JavaScript, providing separate dashboards for users and administrators to interact with the system seamlessly.
+
 # How to Run
 
 ## 1) Stop any old backend if stuck
